@@ -626,6 +626,24 @@ background-color: #f9df9c;
     background-color: var(--color-hover);
     border-color: var(--color-hover);
 }
+.breadcrumb-title .text-breadcr {
+    background: linear-gradient(90deg, #000, #fff, #000);
+    -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 5s linear infinite;
+  position: relative;
+}
+@keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
  @media (max-width:800px) {
     .card-for a {
        
