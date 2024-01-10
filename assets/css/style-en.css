@@ -5,12 +5,12 @@
      border-left: 1px solid var(--color-primary);
 }
 [dir="ltr"] .col-slider img{
-     border-top-left-radius: 22px;
-     border-bottom-left-radius: 22px;
+     border-top-left-radius: 16px;
+     border-bottom-left-radius: 16px;
 }
 [dir="rtl"] .col-slider img{
-     border-top-right-radius: 22px;
-     border-bottom-right-radius: 22px;
+     border-top-right-radius: 16px;
+     border-bottom-right-radius: 16px;
 }
 [dir="rtl"] .ps-md-5 {
      padding-right: 3rem!important;
