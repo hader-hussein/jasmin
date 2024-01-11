@@ -718,3 +718,9 @@ object-position: left;
     }
     
  }
+ @media (max-width:990px) {
+    .PriceDescription,.hadeer-text{
+        display: flex !important;
+        justify-content: space-between;
+    }
+ }
