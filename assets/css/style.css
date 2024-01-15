@@ -682,7 +682,8 @@ object-position: left;
         font-size: 1rem !important;
     }
     .col-slider img {
-        border-radius: 22px;
+        border-radius: 15px;
+        height: 250px;
        
     }
     .row-pachage-content .row>*,.row-pachage-content .col-md-9{
@@ -719,8 +720,31 @@ object-position: left;
     
  }
  @media (max-width:990px) {
+    
+    .content-location a ,.teext-titlee{
+        font-size: 14px !important;
+    }
+    .breadcrumb-title .text-breadcr {
+        font-size: 2.5em;
+    }
+    .card-vision .card-body {
+        margin: 10px 4px;
+
+    }
+ }
+ @media (max-width:550px) {
     .PriceDescription,.hadeer-text{
         display: flex !important;
         justify-content: space-between;
     }
+    [dir="rtl"] .fs-text{
+        font-size: 22px !important;
+    }
+    
+ }
+ .modal-header .btn-close{
+    margin: 0px !important;
+ }
+ [dir="rtl"] .d-d-filter{
+direction: ltr;
  }
